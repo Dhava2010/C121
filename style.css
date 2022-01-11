@@ -1,0 +1,55 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .md
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+  }
+  .sd
+  {
+    font-size: 18px ;
+  }
+  .object
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+    white-space: pre-line;
+  }
+  .accuracy
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+
+  .copy_right_footer
+  {
+    position: fixed;
+    bottom: 0;
+    color: white;
+    float: right;
+    width: 100%;
+    background-color: navy;
+    line-height: 3;
+    text-align: center;
+  }
+  canvas
+  {
+    border: 5px solid;
+    border-radius: 50px;
+    animation-name: pneumonoultramicroscopicsilicovolcanoconiosis;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes pneumonoultramicroscopicsilicovolcanoconiosis
+  {
+    from{box-shadow: 1px 1px 100px navy;}
+    to{box-shadow: 1px 1px 100px red;}
+  }
